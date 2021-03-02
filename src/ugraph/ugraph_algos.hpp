@@ -77,6 +77,7 @@ private:
 
 
 /// Finds a MST for the given graph \a g using Prim's algorithm.
+/// Implemented by Anika Dzhkha
 template<typename Vertex, typename EdgeLbl>
 std::set<typename EdgeLblUGraph<Vertex, EdgeLbl>::Edge>
     findMSTPrim(const EdgeLblUGraph<Vertex, EdgeLbl>& g)
